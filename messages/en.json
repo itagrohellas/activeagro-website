@@ -1,0 +1,350 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "products": "Products",
+    "blog": "News",
+    "contact": "Contact",
+    "menu": "Menu",
+    "close": "Close"
+  },
+  "common": {
+    "readMore": "Read more",
+    "viewAll": "View all",
+    "loading": "Loading…",
+    "backToTop": "Back to top",
+    "language": "Language",
+    "switchLocale": "Switch language"
+  },
+  "hero": {
+    "eyebrow": "Official importer — Since 1995",
+    "headlineLine1": "Next-generation",
+    "headlineLine2": "fertilizers",
+    "subheading": "Complete plant nutrition solutions for every crop. From field to greenhouse, ActiveAgro stands by you at every stage.",
+    "ctaPrimary": "Explore products",
+    "ctaSecondary": "About us",
+    "scroll": "Scroll"
+  },
+  "features": {
+    "eyebrow": "01 — What sets us apart",
+    "heading": "Quality. Science. Results.",
+    "body": "We partner with leading European producers and deliver solutions based on the real needs of each crop.",
+    "items": {
+      "scientific": {
+        "title": "Science-backed",
+        "body": "Formulations based on analytics and real-world field results."
+      },
+      "ecological": {
+        "title": "Eco-friendly",
+        "body": "Low-footprint options and certified organic alternatives."
+      },
+      "everyCrop": {
+        "title": "For every crop",
+        "body": "Tailored formulas for olive, vine, orchards, vegetables and cereals."
+      },
+      "support": {
+        "title": "Technical support",
+        "body": "Our agronomists at your service — on-site visits and advice."
+      }
+    }
+  },
+  "stats": {
+    "eyebrow": "30+ years of experience",
+    "items": [
+      { "value": "30+", "label": "years in the market" },
+      { "value": "150+", "label": "products" },
+      { "value": "2,500+", "label": "active partners" },
+      { "value": "12", "label": "regions covered" }
+    ]
+  },
+  "aboutTeaser": {
+    "eyebrow": "Our story",
+    "heading": "Standing by Greek growers since 1995.",
+    "body": "We started as a small family business with one goal: to bring the best European fertilizers to Greek soil. Today, three decades later, we serve thousands of growers across Greece with the same commitment to quality.",
+    "cta": "Learn more"
+  },
+  "featured": {
+    "eyebrow": "Featured",
+    "heading": "Proven solutions, real results.",
+    "viewAll": "View all products",
+    "empty": "Coming soon."
+  },
+  "news": {
+    "eyebrow": "News & Articles",
+    "heading": "Growing tips from our team.",
+    "viewAll": "All articles",
+    "empty": "No articles available yet."
+  },
+  "contactCta": {
+    "eyebrow": "Get in touch",
+    "heading": "Ready for the right solution?",
+    "body": "Talk to our agronomists. We'll recommend the right formula for your crop — free of charge.",
+    "cta": "Contact us"
+  },
+  "about": {
+    "hero": {
+      "eyebrow": "About us",
+      "headlineLine1": "Three decades",
+      "headlineLine2": "by the soil.",
+      "intro": "Since 1995, ActiveAgro has been bringing leading European fertilizers and nutritional solutions to Greek growers. With knowledge, passion, and a scientific mindset."
+    },
+    "manifesto": {
+      "eyebrow": "Our manifesto",
+      "heading": "We grow relationships, not just products.",
+      "paragraphs": [
+        "We believe fertilizer isn't just a product — it's the foundation of a healthy crop. A crop that feeds families, supports local economies, and keeps the Greek countryside alive.",
+        "That's why, for 30 years, we've carefully chosen which European producers we bring to Greece. We only partner with those who share our values: uncompromising quality, environmental respect, and real know-how.",
+        "And the result? Thousands of growers across Greece trust us not only for our products, but for the advice that comes with them. For the agronomist who picks up the phone. For the on-site visit that makes the difference."
+      ],
+      "highlight": "We don't sell fertilizers. We support crops."
+    },
+    "values": {
+      "eyebrow": "Our values",
+      "heading": "Six principles that guide us.",
+      "items": [
+        {
+          "title": "Scientific approach",
+          "body": "Every recommendation is backed by analytics, studies, and real field results."
+        },
+        {
+          "title": "Local knowledge",
+          "body": "We know the specifics of every Greek crop — because we've been here since 1995."
+        },
+        {
+          "title": "Uncompromising quality",
+          "body": "We only partner with leading European producers. No shortcuts on standards."
+        },
+        {
+          "title": "Environmental respect",
+          "body": "We choose low-footprint products and support organic farming."
+        },
+        {
+          "title": "Continuous learning",
+          "body": "Our agronomists train constantly to bring you the most up-to-date solutions."
+        },
+        {
+          "title": "Partnership",
+          "body": "We're not just suppliers. We're allies of the grower — from sowing to harvest."
+        }
+      ]
+    },
+    "timeline": {
+      "eyebrow": "Our journey",
+      "heading": "30 years, one mission.",
+      "milestones": [
+        {
+          "year": "1995",
+          "title": "We begin",
+          "body": "ActiveAgro is founded as a small family-run fertilizer trading business."
+        },
+        {
+          "year": "2003",
+          "title": "First European partnership",
+          "body": "We sign exclusive distribution with a leading Spanish maker of specialty water-soluble fertilizers."
+        },
+        {
+          "year": "2010",
+          "title": "Nationwide coverage",
+          "body": "We expand to 12 regions with a network of 800+ active partners."
+        },
+        {
+          "year": "2015",
+          "title": "New logistics hub",
+          "body": "We open a state-of-the-art 5,000m² warehouse for faster nationwide delivery."
+        },
+        {
+          "year": "2020",
+          "title": "Technical support team",
+          "body": "Our agronomy team begins free on-site farm visits across the country."
+        },
+        {
+          "year": "2026",
+          "title": "Next generation",
+          "body": "We launch our new biostimulants line and a new digital channel for grower communication."
+        }
+      ]
+    },
+    "approach": {
+      "eyebrow": "How we work",
+      "heading": "From the field, to the field.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "We listen",
+          "body": "We talk with the grower. We understand the crop, the soil, the challenges."
+        },
+        {
+          "step": "02",
+          "title": "We analyze",
+          "body": "We evaluate plant physiology and soil data."
+        },
+        {
+          "step": "03",
+          "title": "We recommend",
+          "body": "We design a tailored nutrition plan, backed by science."
+        },
+        {
+          "step": "04",
+          "title": "We follow up",
+          "body": "We track progress — back to the field as many times as needed."
+        }
+      ]
+    }
+  },
+  "products": {
+    "hero": {
+      "eyebrow": "All products",
+      "heading": "Nutrition solutions for every crop.",
+      "intro": "Explore our full range. Filter by category, form, or search to find what you need."
+    },
+    "filters": {
+      "title": "Filters",
+      "category": "Category",
+      "form": "Form",
+      "search": "Search",
+      "searchPlaceholder": "Product name…",
+      "allCategories": "All",
+      "allForms": "All",
+      "reset": "Reset",
+      "results": "{count, plural, =0 {No products} =1 {1 product} other {# products}}"
+    },
+    "form": {
+      "granular": "Granular",
+      "powder": "Powder",
+      "liquid": "Liquid",
+      "crystalline": "Crystalline",
+      "other": "Other"
+    },
+    "empty": {
+      "title": "No products found",
+      "body": "Try changing your filters or clearing the search."
+    },
+    "detail": {
+      "specsTitle": "Composition & Technical specs",
+      "npkLabel": "NPK composition",
+      "elementColumn": "Element",
+      "percentageColumn": "Percentage",
+      "chelated": "Chelated",
+      "micronutrients": "Micronutrients",
+      "packagingTitle": "Available packaging",
+      "skuLabel": "SKU",
+      "cropsTitle": "Applications by crop",
+      "dosage": "Dosage",
+      "timing": "Application timing",
+      "usageTitle": "Usage instructions",
+      "precautionsTitle": "Precautions",
+      "datasheet": "Technical datasheet (PDF)",
+      "downloadDatasheet": "Download PDF",
+      "askExpert": "Ask our agronomist",
+      "backToProducts": "Back to products",
+      "relatedTitle": "Related products",
+      "noRelated": "Coming soon."
+    }
+  },
+  "blog": {
+    "hero": {
+      "eyebrow": "News & Articles",
+      "heading": "Field wisdom, every week.",
+      "intro": "Growing tips, new products, events, and practical nutrition guidance from our team."
+    },
+    "empty": {
+      "title": "No articles yet",
+      "body": "We'll soon publish helpful content for every crop."
+    },
+    "detail": {
+      "publishedOn": "Published",
+      "byAuthor": "By",
+      "tagsLabel": "Tags",
+      "share": "Share",
+      "shareOn": "Share on {platform}",
+      "copyLink": "Copy link",
+      "copied": "Copied!",
+      "minRead": "{min} min read",
+      "relatedTitle": "Related articles",
+      "backToBlog": "All articles"
+    }
+  },
+  "contact": {
+    "hero": {
+      "eyebrow": "Contact",
+      "heading": "Let's talk.",
+      "intro": "Whether you're looking for the right nutrition plan for your crop, or want to become our partner, we're here. Send us a message or call us."
+    },
+    "info": {
+      "title": "Details",
+      "address": "Address",
+      "phone": "Phone",
+      "email": "Email",
+      "hours": "Business hours"
+    },
+    "form": {
+      "title": "Send us a message",
+      "subtitle": "We will reply within 24 business hours.",
+      "name": "Full name",
+      "namePlaceholder": "John Smith",
+      "email": "Email",
+      "emailPlaceholder": "you@example.com",
+      "phone": "Phone (optional)",
+      "phonePlaceholder": "+30 6900000000",
+      "subject": "Subject",
+      "subjectPlaceholder": "e.g. Quote for olive grove",
+      "message": "Message",
+      "messagePlaceholder": "Tell us what you need…",
+      "consent": "I agree to the processing of my data according to the privacy policy.",
+      "submit": "Send",
+      "submitting": "Sending…",
+      "successTitle": "Message received!",
+      "successBody": "Thank you for reaching out. We'll get back to you soon.",
+      "errorTitle": "Something went wrong",
+      "errorBody": "Please try again or call us directly.",
+      "errors": {
+        "required": "Required field",
+        "email": "Invalid email address",
+        "minLength": "Too short",
+        "consent": "You must accept the privacy policy"
+      }
+    }
+  },
+  "showcase": {
+    "typographyEyebrow": "Typography",
+    "typographyHeading": "Display: Manrope · Body: Inter",
+    "paletteEyebrow": "Brand Palette",
+    "paletteHeading": "From the logo, into the code.",
+    "buttonsEyebrow": "Buttons",
+    "buttonsHeading": "Interactive primitives.",
+    "darkBgLabel": "On a dark background:"
+  },
+  "marquee": {
+    "crops": ["Olive", "Vine", "Cotton", "Orange", "Peach", "Cereals", "Tomato", "Watermelon", "Lemon", "Apple"]
+  },
+  "header": {
+    "contactCta": "Contact"
+  },
+  "footer": {
+    "tagline": "From the soil, to the table.",
+    "description": "Since 1995 we have stood by Greek growers with products and expertise.",
+    "rights": "All rights reserved.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "cookies": "Cookies",
+    "contactInfo": "Contact",
+    "address": "15th km Old National Rd Thessaloniki–Veria, Thessaloniki 57011, Greece",
+    "phone": "+30 231 601 0410",
+    "email": "info@activeagro.com"
+  },
+  "form": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "subject": "Subject",
+    "message": "Message",
+    "submit": "Send",
+    "submitting": "Sending…",
+    "success": "Your message was sent successfully. We will contact you soon.",
+    "error": "Something went wrong. Please try again.",
+    "required": "Required field",
+    "invalidEmail": "Invalid email address"
+  }
+}

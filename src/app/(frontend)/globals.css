@@ -1,0 +1,127 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Fallbacks αν δεν φορτώσει το next/font (π.χ. offline) */
+    --font-sans: ui-sans-serif, system-ui, sans-serif;
+    --font-display: Georgia, serif;
+    --font-mono: ui-monospace, monospace;
+  }
+
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-brand-cream text-brand-ink font-sans;
+    font-feature-settings: 'ss01', 'cv01';
+  }
+
+  /* Selection */
+  ::selection {
+    background-color: theme('colors.brand.orange.DEFAULT');
+    color: #ffffff;
+  }
+
+  /* Scrollbar (subtle) */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: theme('colors.brand.green.300');
+    border-radius: 999px;
+    border: 3px solid theme('colors.brand.cream');
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: theme('colors.brand.green.500');
+  }
+
+  /* Focus rings */
+  :focus-visible {
+    outline: 2px solid theme('colors.brand.orange.DEFAULT');
+    outline-offset: 3px;
+    border-radius: 4px;
+  }
+
+  /* Σεβασμός prefers-reduced-motion για accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+
+  /* Screen-reader only utility (χρησιμοποιείται από το Skip-to-content link) */
+  .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+  }
+}
+
+@layer components {
+  /* Reveal mask wrapper — overflow hidden για child reveal animation.
+     IMPORTANT: padding-top + extra line-height δίνουν χώρο για ελληνικούς τόνους
+     (ά, έ, ή, κτλ) και αγγλικά descenders (g, p, y) ώστε να μην κόβονται. */
+  .reveal-mask {
+    overflow: hidden;
+    display: inline-block;
+    line-height: 1.2;
+    padding-top: 0.15em;
+    padding-bottom: 0.05em;
+    margin-top: -0.15em;
+    margin-bottom: -0.05em;
+  }
+
+  /* Glassmorphism card */
+  .glass-card {
+    @apply rounded-3xl border border-white/40 bg-white/60 backdrop-blur-xl;
+  }
+
+  /* Pill / badge */
+  .pill {
+    @apply inline-flex items-center gap-2 rounded-full border border-brand-green/20 bg-white/70 px-4 py-1.5 text-sm font-medium text-brand-green backdrop-blur;
+  }
+}
+
+@layer utilities {
+  /* Display flavors — με Manrope δεν έχουμε SOFT/WONK axes,
+     οπότε δίνουμε προσωπικότητα μέσω weight + letter-spacing. */
+  .display-wonky {
+    font-weight: 800;
+    letter-spacing: -0.045em;
+  }
+  .display-soft {
+    font-weight: 500;
+    letter-spacing: -0.02em;
+  }
+  .display-tight {
+    font-weight: 700;
+    letter-spacing: -0.04em;
+  }
+
+  /* Text balance για headlines */
+  .text-balance {
+    text-wrap: balance;
+  }
+  .text-pretty {
+    text-wrap: pretty;
+  }
+}
