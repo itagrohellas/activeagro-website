@@ -30,6 +30,10 @@ const isPostgres = databaseUri.startsWith('postgres://') || databaseUri.startsWi
 const dbAdapter = isPostgres
   ? postgresAdapter({
       pool: { connectionString: databaseUri },
+      // Auto-push του schema στο DB (αντί για formal migrations).
+      // Σε προηγμένο production setup θα χρησιμοποιούσαμε payload migrate,
+      // αλλά για ένα single-admin CMS αυτό είναι απλούστερο και ασφαλές.
+      push: true,
     })
   : sqliteAdapter({
       client: { url: databaseUri },
